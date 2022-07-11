@@ -1,6 +1,6 @@
 # Tip Calculator 
 
-def Tip_Calculator():
+def TipCalculator():
   print("Welcome to the tip calculator")
   bill = (float(input("What was the total bill?"))) + (int(input("How much would you like to tip")) * 0.01)
   split = int(input("How many peope are splitting the bill?"))
@@ -11,5 +11,5 @@ def Tip_Calculator():
 
   return print(f"Each person should pay {final_amount}")
 
-Tip_Calculator()
+TipCalculator()
   
